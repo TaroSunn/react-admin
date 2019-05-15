@@ -83,9 +83,12 @@ if (preProcessor) {
       sourceMap: isEnvProduction && shouldUseSourceMap,
       javascriptEnabled:true,
       modifyVars: {
-        'primary-color': 'red',
+        'primary-color': 'red', // 主题色
       },
     },
   });
 }
 ```
+
+## 项目主页
+
